@@ -16,7 +16,7 @@ def primeNumberDetector(n):
     if n % 2 == 0:
         return False
     i = 3
-    while i<= n**(1/2):
+    while i <= n**(1/2):
         if n % i == 0:
             return False
         i += 2
@@ -25,8 +25,8 @@ def primeNumberDetector(n):
 #Creating a list of numbers from user's defined range
 l = []
 
-initial =  int(input("Enter your desired initial range : "))
-final =  int(input("Enter your desired final range : "))
+initial = int(input("Enter your desired initial range : "))
+final = int(input("Enter your desired final range : "))
 for element in range(initial, final+1):
     l.append(element)
 
